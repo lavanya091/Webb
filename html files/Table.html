@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Keywords" content="Html and css"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,tr,th,td{
+        border:1px solid black;
+        border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <center><h1>ROW SPAN AND COLUMN SPAN</h1></center>
+    <table width="100%">
+        <tr>
+            <th>Location</th>
+            <th >Movie</th>
+            <th>Morning timings</th>
+            <th>Afternoon timings</th>
+            <th colspan="2">Images</th>
+            <th>Payment</th>
+            
+        </tr>
+        <tr>
+            <td rowspan="3">Erragada</td>
+            <td >Animal</td>
+            <td>9:00-12:00</td>
+            <td>1:00-3:00</td>
+            <td><img src="./Images/animal.jpg" width="20%" height="10%"/></td>
+            <td><a href="https://in.bookmyshow.com/"><img src="./gpay.jpg" width="20%" height="10%"></a></td>
+            
+        </tr>
+        <tr>
+            <td >Nana</td>
+            <td>9:00-12:00</td>
+            <td>1:00-3:00</td>
+            <td><img src="./nana.jpg" width="20%" height="0%"/></td>
+            <td><a href="https://in.bookmyshow.com/"><img src="./gpay.jpg" width="20%" height="10%"></a></td>
+            
+        </tr>
+        <tr>
+            <td >Jailer</td>
+            <td>9:00-12:00</td>
+            <td>1:00-3:00</td>
+            <td><img src="./Images/jailer.jpg" width="20%" height="10%"/></td>
+            <td><a href="https://in.bookmyshow.com/"><img src="./gpay.jpg" width="20%" height="10%"></a></td>
+        </tr>
+    </table>
+</body>
+</html>

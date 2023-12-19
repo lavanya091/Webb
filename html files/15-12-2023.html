@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>  
+<h1>Exam Registration form</h1>
+<form style="border-width: 1px;">
+<b><label for="name">Name</label></b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="text" id="name" name="Name" size="20" placeholder="Enter your name"/><br><br>
+<b><label for="Sname">Surname</label></b>&nbsp
+<input type="text" id="Sname" name="Surname"  placeholder="Enter your Surname"/><br><br>
+<b><label for="mail">Email</label></b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="email" id="mail" name="email" placeholder="Enter your email"/><br><br>
+<b><label for="pswd">Password</label></b></label>
+<input type="password" id="pswd" name="pswd" placeholder="Enter your password"/><br><br>
+<b><label for="mob">Mobile number</label></b>
+<input type="tel" id="mob" name="mobile" pattern="[0-9]{10}"  placeholder="Enter your mobile number"/><br><br>
+<small>Format:1234567890</small><br><br>
+<b><label for="date">Date of Birth</label></b>
+<input type="datetime-local" id="date" name="date"/><br><br>
+<b><label for="addr">Address</label></b>&nbsp&nbsp&nbsp
+<input type="text" id="addr" name="addr" placeholder="Enter your address"/><br><br>
+<label for="doc">Please upload any identity card</label>
+<small>Aadhar card/Pancard/Ration card</small>
+<input type="file" name="doc" id="doc" ><br><Br>
+<h4>Enter your location</h4>
+<input type="radio" id="Areas" name="My_hometown" value="Warangal" />
+<label for="Areas">Warangal</label><br><br>
+    <input type="radio" id="Area1" name="My_hometown" value="Secunderabad" />
+    <label for="Area1">Secunderabad</label><br><br>
+    <input type="radio" id="Area2" name="My_hometown" value="Siddipet" />
+    <label for="Area2">Sidipet</label><br>
+    <h4>Select Exam centers</h4>
+    <input type="checkbox" id="exam1" name="Exam_Center1" value="ahmedabad" checked/>
+    <label for="exam1">Ahmedabad</label><br><br>
+    <input type="checkbox" id="exam2" name="Exam_Center2" value="Chotuppal"/>
+    <label for="exam2">Uppal</label><br><br>
+    <input type="checkbox" id="exam3" name="Exam_Center3" value="Boduppal"/>
+    <label for="exam3">Boduppal</label><br>
+    <h4>Book exam slot</h4>
+    <b><label for="slot">Select options</label></b>
+    <select id="slot" name="slotsbooking">
+        <option value="8-11"selected>8:00-11:00</option>
+        <option>12:00-3:00</option>
+        <option>4:00-7:00</option>
+    </select><br><Br>
+    <b><label for="cat">Category</label></b>
+<input list="catgry" id="cat" name="category">
+<datalist id="catgry">
+<option value="OC">
+<option value="BC-A">
+<option value="BC-B">
+<option value="BC-C">
+<option value="BC-D">
+<option value="BC-E">
+<option value="SC">
+<option value="ST">       
+</datalist>
+<h5>if you have any queries kindly let us know in the description</h5>
+<textarea rows="5" cols="20" ></textarea>
+    
+<center><input type="submit" value="Submit">
+    <input type="reset"></center>
+    <center><h4><a href="Login.html">Click here to login</a></h4></center>
+   
+</center>
+</form>
+</body>
+</html>
